@@ -4,8 +4,9 @@
     top: 0;
     width: 260px;
     height: 100%;
+    overflow-y: auto;
     z-index: 10000;
-    background-color: #ffffff;
+    background-color: var(--white);
 }
 
 #main {
@@ -13,11 +14,11 @@
     min-height: 100vh;
     margin: 0 auto;
     padding-left: 260px;
-    background-color: #fdf5f5;
+    background-color: var(--white);
 }
 
 #footer {
     text-align: center;
-    background-color: #222;
+    background-color: rgb(255, 254, 254);
     padding: 20px 20px 20px 260px;
 }

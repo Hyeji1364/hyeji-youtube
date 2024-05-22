@@ -2,8 +2,9 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Home from './pages/Home'
+import Today from './pages/Today'
 import Japan from './pages/Japan'
-import Thailand from './pages/Thailand'
+import Taiwan from './pages/Taiwan'
 import Honkong from './pages/Honkong'
 import Singapore from './pages/Singapore'
 import Vietnam from './pages/Vietnam'
@@ -18,6 +19,7 @@ import Header from './components/section/Header';
 import Main from './components/section/Main';
 import Footer from './components/section/Footer';
 
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -25,8 +27,9 @@ const App = () => {
       <Main>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/today' element={<Today />} />
           <Route path='/japan' element={<Japan />} />
-          <Route path='/thailand' element={<Thailand />} />
+          <Route path='/Taiwan' element={<Taiwan />} />
           <Route path='/honkong' element={<Honkong />} />
           <Route path='/singapore' element={<Singapore />} />
           <Route path='/vietnam' element={<Vietnam />} />
