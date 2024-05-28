@@ -28,7 +28,6 @@
     padding: 10px 0;
 
     .menu {
-        border-bottom: 1px solid var(--var200);
 
         li {
             margin-bottom: 5px;
@@ -44,7 +43,7 @@
                 color: var(--black500);
                 transition: all 0.3s;
 
-                background-color: #fdf5f5;
+                background-color: #faeaea;
 
                 svg {
                     width: 1.25rem;
@@ -55,8 +54,8 @@
                 }
 
                 &:hover {
-                    background-color: var(--black500);
-                    color: var(--black);
+                    background-color: #fab4b4;
+                    color: var(--white);
                 }
             }
 
@@ -91,7 +90,7 @@
             }
 
             &.active a {
-                background-color: #fab4b4;
+                background-color: var(--black500);
                 color: var(--white);
             }
 

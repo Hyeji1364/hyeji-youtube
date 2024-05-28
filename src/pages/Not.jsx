@@ -1,8 +1,13 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Not = () => {
     return (
-        <div>Not</div>
+        <Main
+            title="잘못된 페이지"
+            desciprion="접근이 잘못된 페이지입니다.">
+            Not
+        </Main>
     )
 }
 
